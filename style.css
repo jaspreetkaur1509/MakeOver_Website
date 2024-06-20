@@ -1,0 +1,1081 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Roboto";
+    /* font-size: calc(0.8vw*2 + 1vh*2); */
+    /* font-family:sans-serif; */
+    /* border: 1px solid white; */
+}
+
+/* Navigation Bar */
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: #f1916d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: 2.6vw;
+    font-weight: 800;
+    padding: 0 1.5vw;
+}
+
+.nav2 {
+    display: flex;
+    gap: 2vw;
+    padding: 0 1.5vw;
+}
+
+.nav2 h3 {
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.nav i {
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+}
+
+/* Background Image */
+.bgimage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(MakeupImages/i2.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#text {
+    color: #f1916d;
+    text-align: center;
+    width: 50vw;
+    padding-left: 3vw;
+}
+
+#text h1 {
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+#text h3 {
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 1.4vw 0;
+}
+
+#text p {
+    font-size: 1.2vw;
+    padding: 1vw 0;
+}
+
+.button {
+    font-size: 1.5vw;
+    margin: 1.3vw 2vw;
+    text-decoration: none;
+    padding: 1.1vw 1.5vw;
+    border-radius: 1.5vw;
+    text-align: center;
+    color: black;
+    background-color: #f1916d;
+    cursor: pointer;
+}
+
+/* hair color */
+.hairservices {
+    background-color: #f1916d;
+}
+
+.jas {
+    font-size: 5vw;
+    text-align: center;
+    padding: 3vw;
+}
+
+/* Adding four Images */
+#fourimages {
+    display: flex;
+    background-color: #f1916d;
+    /* margin-top: 3vw; */
+}
+
+.whole {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px black;
+    margin: 1.6vw 1.6vw;
+    padding: 2.5vw;
+}
+
+.image {
+    border: 6px solid #fbe4d8;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.whole h1 {
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: center;
+}
+
+.whole h2 {
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: center;
+    padding: 1vw 0;
+}
+
+.whole p {
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* About beauty studio */
+.blackportion {
+    background-color: black;
+    display: flex;
+}
+
+.About {
+    width: 50vw;
+    color: white;
+    margin: 5vw;
+}
+
+.About h1 {
+    font-size: 5.2vw;
+    padding: 4vw 3vw;
+}
+
+.About h2 {
+    font-size: 3vw;
+    padding: 1.5vw 3vw;
+}
+
+.About p {
+    font-size: 1.6vw;
+    padding: 3vw 3vw;
+    text-align: justify;
+}
+
+.threediv {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 3%;
+    margin: 4%;
+}
+
+.pinkdiv {
+    background-color: #f1916d;
+    color: black;
+    border-radius: 6%;
+    font-size: 1.8vw;
+    padding: 4%;
+    margin: 8%;
+}
+
+.pinkdiv p {
+    padding: 2vw;
+}
+
+.pinkdiv h2 {
+    padding: 1.5vw;
+}
+
+/* To book for exact */
+.Booking {
+    background-color: black;
+    height: 80vh;
+}
+
+.Booking p {
+    color: #f1916d;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+/* Add more images about saloon */
+.moreimages {
+    background-color: #f1916d;
+    width: 100vw;
+    height: 50vw;
+}
+
+.saloon1 {
+    display: flex;
+}
+
+.saloon2 {
+    display: flex;
+}
+
+.set {
+    height: 20vw;
+    width: 20vw;
+    border: 6px solid #fbe4d8;
+    margin: auto;
+}
+
+/* Introduction */
+.introduction {
+    background-color: #f1916d;
+    display: flex;
+    width: 100vw;
+    height: 80vw;
+}
+
+.photograph {
+    width: 40vw;
+    display: flex;
+}
+
+.m2 {
+    height: 45vw;
+    width: 35vw;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.intro {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1 {
+    font-size: 5.5vw;
+    font-weight: bold;
+    padding: 2%;
+    text-align: right;
+}
+
+.intro p {
+    font-size: 2.2vw;
+    text-align: justify;
+    padding: 4%;
+}
+
+/* why us */
+.whyus {
+    background-color: black;
+    display: flex;
+}
+
+.content {
+    width: 50vw;
+    color: azure;
+    padding: 3%;
+    margin: 3%;
+}
+
+.content h1 {
+    font-size: 6.5vw;
+    font-weight: 900;
+}
+
+.content h2 {
+    font-size: 3.2vw;
+    padding-top: 3%;
+}
+
+.content p {
+    font-size: 2.5vw;
+    padding-top: 3%;
+}
+
+.content1 {
+    width: 50vw;
+    padding: 2%;
+    margin: 6vw 3vw;
+}
+
+.content5 {
+    height: 50vw;
+    width: 35vw;
+    margin: 6%;
+    /* margin-top: 8%; */
+    border: 5px solid whitesmoke;
+}
+
+.button1 {
+    font-size: 16px;
+    margin: 5px 3px;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    background-color: #f1916d;
+    cursor: pointer;
+}
+
+/* Visit Us */
+.visit {
+    background-color: #f1916d;
+    display: flex;
+    height: 50vw;
+}
+
+.visit1 {
+    width: 50vw;
+    display: flex;
+}
+
+.visit2 {
+    width: 35vw;
+    height: 45vw;
+    margin: auto;
+}
+
+.visit3 {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit3 h1 {
+    font-size: 4.8vw;
+    font-weight: 800;
+    padding: 2vw 0;
+}
+
+.visit3 h2 {
+    font-size: 2.vw;
+    font-weight: 500;
+    padding: 2vw 0;
+}
+
+/* background image */
+.formimage {
+    background-image: url(MakeupImages/i3.webp);
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+}
+
+.form1 {
+    color: azure;
+    width: 40vw;
+    height: 100vh;
+    padding: 4%;
+}
+
+.form1 h1 {
+    font-size: 4vw;
+    padding: 3%;
+    margin: 2%;
+    margin-top: 6%;
+    color: #f1906d;
+
+}
+
+.form1 h2 {
+    font-size: 3vw;
+    padding: 3%;
+    margin: 2%;
+    color: #f1916d;
+}
+
+.form1 p {
+    font-size: 1.8vw;
+    margin: 2%;
+}
+
+/* create form */
+.form {
+    width: 50vw;
+    margin: 6%;
+    padding: 5%;
+    color: aliceblue;
+}
+
+.part {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+}
+
+.part1 {
+    font-size: 1.6vw;
+}
+
+.p1 {
+    padding: 1%;
+}
+
+.last {
+    font-size: 24px;
+}
+
+.submit {
+    margin: 2vw 2vw;
+    text-decoration: none;
+    padding: 2vw 6vw;
+    border-radius: 2vw;
+    text-align: center;
+    color: black;
+    background-color: #f1916d;
+    cursor: pointer;
+    font-size: 2.3vw;
+}
+
+.textarea {
+    font-size: 2.1vw;
+    padding: 2%;
+}
+
+/* media Query for tab */
+@media (max-width:1024px) {
+    .nav h1 {
+        font-size: 3.5vw;
+        padding: 0 3vw;
+    }
+
+    .nav2 h3 {
+        font-size: 1.6vw;
+        font-weight: 800;
+        display: none;
+    }
+
+    .nav i {
+        display: block;
+        font-size: 4.5vw;
+    }
+
+    .nav i{
+        display: block;
+        font-size: 4.5vw;
+    }
+
+    /* Background Image */
+    .bgimage {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #text h1 {
+        font-size: 7vw;
+    }
+
+    #text h3 {
+        font-size: 3vw;
+        padding: 1.5vw 0;
+    }
+
+    #text p {
+        font-size: 1.6vw;
+        font-weight: 800;
+    }
+
+    .button {
+        font-size: 2.2vw;
+        padding: 1.5vw 1.3vw;
+        border-radius: 2vw;
+    }
+
+    /* hair color */
+    .hairservices {
+        height: 100%;
+        width: 100%;
+    }
+
+    .jas {
+        font-size: 7vw;
+        padding: 5vw;
+    }
+
+    /* Adding four images */
+    #fourimages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2vw;
+    }
+
+    .whole {
+        width: 50%;
+        margin: 3.5vw 0;
+        padding: 8.5vw 0;
+    }
+
+    .image {
+        height: 35vw;
+        width: 35vw;
+        border: 1.2vw solid #fbe4d8
+    }
+
+    .whole h1 {
+        font-size: 4.5vw;
+    }
+
+    .whole h2 {
+        font-size: 4vw;
+        padding: 2vw 0;
+    }
+
+    .whole p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    /* About beauty studio */
+    .blackportion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About {
+        width: 70vw;
+        text-align: center;
+    }
+
+    .About h1 {
+        font-size: 7vw;
+        font-weight: 900;
+    }
+
+    .About h2 {
+        font-size: 4vw;
+    }
+
+    .About p {
+        font-size: 2.3vw;
+        font-weight: 600;
+    }
+
+    .threediv {
+        width: 70vw;
+    }
+
+    .pinkdiv {
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    /* To book for exact */
+    .Booking {
+        height: 70vw;
+    }
+
+    .Booking p {
+        width: 80vw;
+        font-size: 7.4vw;
+        font-weight: 900;
+    }
+
+    /* Introduction */
+    .introduction {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photograph {
+        display: flex;
+    }
+
+    .m2 {
+        height: 100%;
+        width: 60vw;
+        margin: 6vw 0;
+    }
+
+    .intro {
+        margin: 2vw 0;
+        width: 60vw;
+    }
+
+    .intro h1 {
+        font-size: 6.5vw;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .intro p {
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    /* why us */
+    .whyus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        width: 70vw;
+        text-align: center;
+        margin: 5vw 0;
+    }
+
+    .content h1 {
+        font-size: 7.9vw;
+    }
+
+    .content h2 {
+        font-size: 4.5vw;
+        font-weight: 800;
+        padding: 3vw 0;
+    }
+
+    .content p {
+        font-size: 3.2vw;
+        font-weight: 600;
+        padding-bottom: 5vw;
+    }
+
+    .button1 {
+        font-size: 3.4vw;
+        font-weight: 800;
+        padding: 3vw 3vw;
+    }
+
+    .content5 {
+        height: 74vw;
+        width: 45vw;
+        border: 2vw solid whitesmoke;
+    }
+
+    /* Visit Us */
+    .visit {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .visit1 {
+        width: 100vw;
+        margin: 5vw 0;
+    }
+
+    .visit2 {
+        width: 50vw;
+        height: 60vw;
+    }
+
+    .visit3 {
+        text-align: center;
+    }
+
+    .visit3 h1 {
+        font-size: 6.5vw;
+    }
+
+    .visit3 h2 {
+        font-size: 3.5vw;
+    }
+
+    /* background image */
+    .formimage {
+        background-position: left;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .form1 {
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+    }
+
+    .form1 h1 {
+        font-size: 7vw;
+        font-weight: 700;
+    }
+
+    .form1 h2 {
+        font-size: 5vw;
+    }
+
+    .form1 p {
+        font-size: 3vw;
+    }
+
+    /* create form */
+    .form {
+        width: 100vw;
+    }
+
+    .part {
+        font-size: 5vw;
+    }
+
+    .part1 {
+        font-size: 2.7vw;
+        font-weight: 800;
+    }
+
+    .last {
+        font-size: 5vw;
+    }
+
+    .textarea {
+        font-size: 3vw;
+        padding: 5vw 4vw;
+    }
+
+    .submit {
+        padding: 4.3vw 5vw;
+        font-size: 3.5vw;
+        font-weight: 900;
+
+    }
+}
+
+/* media Query for Mobilephone */
+@media (max-width:550px) {
+    .nav {
+        height: 80px;
+    }
+
+    .nav h1 {
+        font-size: 5.5vw;
+        padding: 0 3vw;
+    }
+
+    .nav2 h3 {
+        font-size: 2vw;
+        font-weight: 800;
+        display: none;
+    }
+
+    .nav i {
+        display: block;
+        font-size: 4.5vw;
+    }
+
+    /* Background Image */
+    .bgimage {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    #text {
+        width: 80vw;
+    }
+
+    #text h1 {
+        font-size: 9vw;
+        font-weight: 800;
+    }
+
+    #text h3 {
+        font-size: 4vw;
+        padding: 1.9vw 0;
+    }
+
+    #text p {
+        font-size: 2.8vw;
+        font-weight: 900;
+    }
+
+    .button {
+        font-size: 3vw;
+        font-weight: 800;
+        border: 2px solid black;
+        padding: 1.5vw 1.5vw;
+        border-radius: 2vw;
+    }
+
+    /* hair color */
+    .hairservices {
+        height: 100%;
+        width: 100%;
+    }
+
+    .jas {
+        font-size: 8vw;
+        padding: 7vw 0;
+    }
+
+    /* Adding four images */
+    #fourimages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 4vw; */
+    }
+
+    .whole {
+        width: 70%;
+        margin: 5vw 0;
+        padding: 8.5vw 0;
+    }
+
+    .image {
+        height: 50vw;
+        width: 50vw;
+        border: 1.4vw solid #fbe4d8
+    }
+
+    .whole h1 {
+        font-size: 6.5vw;
+        font-weight: 700;
+    }
+
+    .whole h2 {
+        font-size: 6.3vw;
+        padding: 3vw 0;
+    }
+
+    .whole p {
+        font-size: 4.8vw;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* About beauty studio */
+    .blackportion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About {
+        width: 70vw;
+        text-align: center;
+    }
+
+    .About h1 {
+        font-size: 8vw;
+        font-weight: 900;
+    }
+
+    .About h2 {
+        font-size: 4.5vw;
+        font-weight: 700;
+    }
+
+    .About p {
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .threediv {
+        width: 80vw;
+    }
+
+    .pinkdiv {
+        font-size: 4.6vw;
+        font-weight: 500;
+    }
+
+    /* To book for exact */
+    .Booking {
+        height: 80vw;
+    }
+
+    .Booking p {
+        width: 80vw;
+        font-size: 8.7vw;
+        font-weight: 900;
+    }
+
+    /* Introduction */
+    .introduction {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photograph {
+        display: flex;
+    }
+
+    .m2 {
+        height: 70vw;
+        width: 100vw;
+        margin: 6vw 0;
+    }
+
+    .intro {
+        margin: 2vw 0;
+        width: 60vw;
+    }
+
+    .intro h1 {
+        font-size: 7vw;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .intro p {
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    /* why us */
+    .whyus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        width: 70vw;
+        text-align: center;
+        margin: 6vw 0;
+    }
+
+    .content h1 {
+        font-size: 8.5vw;
+    }
+
+    .content h2 {
+        font-size: 5vw;
+        font-weight: 800;
+        padding: 3vw 0;
+    }
+
+    .content p {
+        font-size: 3.8vw;
+        font-weight: 600;
+        padding-bottom: 6vw;
+    }
+
+    .button1 {
+        font-size: 4vw;
+        font-weight: 800;
+        padding: 3vw 3vw;
+    }
+
+    .content5 {
+        height: 75vw;
+        width: 45vw;
+        border: 2vw solid whitesmoke;
+    }
+
+    /* Visit Us */
+    .visit {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .visit1 {
+        width: 100vw;
+        margin: 5vw 0;
+    }
+
+    .visit2 {
+        width: 50vw;
+        height: 60vw;
+    }
+
+    .visit3 {
+        text-align: center;
+    }
+
+    .visit3 h1 {
+        font-size: 7vw;
+        font-weight: 800;
+    }
+
+    .visit3 h2 {
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+
+    /* background image */
+    .formimage {
+        background-position: left;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .form1 {
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+    }
+
+    .form1 h1 {
+        font-size: 7vw;
+        font-weight: 700;
+    }
+
+    .form1 h2 {
+        font-size: 5vw;
+    }
+
+    .form1 p {
+        font-size: 3vw;
+    }
+
+    /* create form */
+    .form {
+        width: 100vw;
+    }
+
+    .part {
+        font-size: 6vw;
+    }
+
+    .part1 {
+        font-size: 3vw;
+        font-weight: 800;
+    }
+
+    .last {
+        font-size: 6vw;
+    }
+
+    .textarea {
+        font-size: 4vw;
+        padding: 5vw 4vw;
+    }
+
+    .submit {
+        padding: 4.3vw 5vw;
+        font-size: 4.5vw;
+        font-weight: 900;
+    }
+}
